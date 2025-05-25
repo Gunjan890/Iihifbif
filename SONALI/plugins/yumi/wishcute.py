@@ -4,7 +4,7 @@ import random
 import requests
 from SONALI import app 
 
-SUPPORT_CHAT = "https://t.me/NOBITA_MUSIC_SUPPORT"
+SUPPORT_CHAT = "https://t.me/+tVMp-_bwZVs4OWE9"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
