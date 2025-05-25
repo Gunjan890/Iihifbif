@@ -13,11 +13,11 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","iamakki001")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Daddy_chips")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","odsmusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME","marcotechmusicbot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
+BOT_NAME = getenv("BOT_NAME","ᴍᴀʀᴄᴏ ꭙ ᴍᴜsɪᴄ ❖")
 # ---------------------------------------------------------
 
 
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/abhaysinghchauhan001/NOBITAMUSIC001",
+    "https://github.com/IRONBOY112/Iihifbif",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/illuminati_updates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+SxwO68pbQeg3MjY1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/marco_lab")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+tVMp-_bwZVs4OWE9")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -90,21 +90,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/sjq7g8.jpg"
+    "START_IMG_URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/7qyorb.jpg"
+    "PING_IMG_URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/sjq7g8.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/fcawaj.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/fcawaj.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
+PLAYLIST_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
+STATS_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
+TELEGRAM_AUDIO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
+TELEGRAM_VIDEO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
+STREAM_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
+SOUNCLOUD_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
+YOUTUBE_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
+SPOTIFY_ARTIST_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
+SPOTIFY_ALBUM_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
+SPOTIFY_PLAYLIST_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBVXSOKI3xID_eiu6OV5WCngPqg9N2kdtCTAuwXvnXyTKxhVC&s"
 
 
 def time_to_seconds(time):
