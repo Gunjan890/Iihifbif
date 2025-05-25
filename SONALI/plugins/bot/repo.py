@@ -31,9 +31,7 @@ async def start(_, msg):
         [
           InlineKeyboardButton("Channel", url="https://t.me/marco_lab"),
           InlineKeyboardButton("MARCO", url="https://t.me/iamakki001"),
-          ],
              
-
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
